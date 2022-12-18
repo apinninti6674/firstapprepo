@@ -11,4 +11,10 @@ public class FirstController {
 		
 		return "Hello JavaInUse Called in First Service";
 	}
+	
+	@GetMapping("/")
+	public String sayHello() {
+		
+		return "Hello JavaInUse Called in First Service";
+	}
 }
